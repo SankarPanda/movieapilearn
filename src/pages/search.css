@@ -1,0 +1,11 @@
+.search {
+  margin: 1rem 2rem;
+}
+.search > input {
+  background-color: #2d2d2d;
+  outline: none;
+  border: none;
+  width: 100%;
+  padding: 1rem;
+  color: white;
+}

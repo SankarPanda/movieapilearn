@@ -1,0 +1,17 @@
+.SMC {
+  margin: 2rem 0;
+  transition: all 500ms;
+  cursor: pointer;
+}
+.SMC:hover {
+  transform: scale(1.1);
+}
+.movie-img {
+  width: 20rem;
+  height: 30rem;
+  border-radius: 5%;
+}
+.SMC > h3 {
+  text-align: center;
+  margin-top: 1rem;
+}

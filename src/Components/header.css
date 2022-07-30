@@ -1,0 +1,26 @@
+.header {
+  background-color: #70ee9c;
+  color: #0f0f0f;
+  padding: 0.5rem 2rem;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+.header > h2 {
+  font-family: "Sriracha", cursive;
+  font-size: 2rem;
+}
+.header > ul {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+.header > ul > li {
+  margin: 0 0.5rem;
+  cursor: pointer;
+  font-size: 1.2rem;
+  transition: all 300ms;
+}
+.header > ul > li:hover {
+  transform: scale(1.1);
+}

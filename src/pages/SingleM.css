@@ -1,0 +1,28 @@
+.SingleM {
+  display: flex;
+  align-items: center;
+  margin: 0 2rem;
+}
+.sm-left > img {
+  margin: 3rem 0;
+}
+.sm-right {
+  flex: 2;
+  margin: 0 3rem;
+}
+.sm-right > h1 {
+  font-size: 3rem;
+  color: #70ee9c;
+}
+.sm-right > p {
+  margin-top: 2rem;
+  line-height: 2;
+}
+.sm-btn {
+  margin: 2rem 0;
+  padding: 1rem 3rem;
+  background-color: #70ee9c;
+  cursor: pointer;
+  color: #0f0f0f;
+  font-size: 1.2rem;
+}
